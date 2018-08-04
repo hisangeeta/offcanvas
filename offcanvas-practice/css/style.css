@@ -1,0 +1,143 @@
+    html,
+    body,
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    span,
+    strong,
+    {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .header-top-bg {
+        background-color: #264448;
+        padding: 28px 127px;
+    }
+    /* .header-top {
+    max-width: 1109px;
+} */
+    
+    .font-border {
+        border: 1px solid #728272;
+        padding: 8px 15px;
+        border-radius: 50%;
+        max-width: 45px;
+        max-height: 45px;
+        float: left;
+        margin-right: 6px;
+    }
+    
+    .header-top i.fas.fa-mobile-alt {
+        font-size: 20px;
+        color: #799474;
+    }
+    
+    .phone-call {
+        float: left;
+    }
+    
+    .clear {
+        clear: both;
+    }
+    
+    .phone-call span {
+        display: block;
+        font-size: 16px;
+        color: #94a651;
+        text-transform: capitalize;
+        line-height: 16px;
+        margin-bottom: 9px;
+    }
+    
+    .phone-call span.ph-num {
+        color: #fff;
+        font-size: 30px;
+    }
+    
+    .mg-left {
+        padding-left: 0;
+    }
+    
+    .mg-right {
+        padding-right: 0;
+    }
+    
+    .font-sizer span.font-size-small {
+        font-size: 16px;
+        color: #fff;
+        margin-left: 4px;
+    }
+    
+    .font-sizer span.font-size-medium {
+        font-size: 20px;
+        color: #fff;
+        margin-left: 4px;
+    }
+    
+    .font-sizer span.font-size-large {
+        font-size: 24px;
+        color: #fff;
+        margin-left: 4px;
+    }
+    
+    .font-sizer {
+        float: left;
+        margin-right: 56px;
+    }
+    
+    .schedule-wrp {
+        float: left;
+    }
+    
+    .schedule {
+        float: left;
+    }
+    
+    .schedule span {
+        display: block;
+        color: #94a651;
+        font-size: 14px;
+        line-height: 14px;
+        margin-bottom: 10px;
+    }
+    
+    .schedule span.Appointment {
+        color: #fff;
+        font-size: 30px;
+        text-transform: uppercase;
+        word-spacing: 1px;
+    }
+    
+    .nav-bg {
+        background: #2d4b4f;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    
+    .nav-bg nav.navbar.navbar-expand-lg {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .custom-nav a.nav-link {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 14px;
+        margin-left: 40px;
+    }
+    
+    .review-btn button.btn {
+        font-size: 20px;
+        color: #fff;
+        font-weight: 600;
+        background: #3b96cf;
+        border-radius: 40px;
+        padding: 4px 10px;
+        border-top: 1px solid #97c7e6;
+        border-bottom: 1px solid #2d82b7;
+    }
