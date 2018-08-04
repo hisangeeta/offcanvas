@@ -141,3 +141,8 @@
         border-top: 1px solid #97c7e6;
         border-bottom: 1px solid #2d82b7;
     }
+    
+    .navbar-toggler {
+        background-color: red !important;
+        margin-left: 40%;
+    }
