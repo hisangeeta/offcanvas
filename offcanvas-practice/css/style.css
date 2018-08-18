@@ -1,148 +1,266 @@
-    html,
-    body,
-    p,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    span,
-    strong,
-    {
-        margin: 0;
-        padding: 0;
-    }
-    
-    .header-top-bg {
-        background-color: #264448;
-        padding: 28px 127px;
-    }
-    /* .header-top {
+        html,
+        body,
+        p,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        span,
+        strong,
+        a,
+        ul,
+        li {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            font-family: 'Raleway', sans-serif;
+        }
+        
+        .header-top-bg {
+            background-color: #264448;
+            padding: 28px 127px;
+        }
+        /* .header-top {
     max-width: 1109px;
 } */
-    
-    .font-border {
-        border: 1px solid #728272;
-        padding: 8px 15px;
-        border-radius: 50%;
-        max-width: 45px;
-        max-height: 45px;
-        float: left;
-        margin-right: 6px;
-    }
-    
-    .header-top i.fas.fa-mobile-alt {
-        font-size: 20px;
-        color: #799474;
-    }
-    
-    .phone-call {
-        float: left;
-    }
-    
-    .clear {
-        clear: both;
-    }
-    
-    .phone-call span {
-        display: block;
-        font-size: 16px;
-        color: #94a651;
-        text-transform: capitalize;
-        line-height: 16px;
-        margin-bottom: 9px;
-    }
-    
-    .phone-call span.ph-num {
-        color: #fff;
-        font-size: 30px;
-    }
-    
-    .mg-left {
-        padding-left: 0;
-    }
-    
-    .mg-right {
-        padding-right: 0;
-    }
-    
-    .font-sizer span.font-size-small {
-        font-size: 16px;
-        color: #fff;
-        margin-left: 4px;
-    }
-    
-    .font-sizer span.font-size-medium {
-        font-size: 20px;
-        color: #fff;
-        margin-left: 4px;
-    }
-    
-    .font-sizer span.font-size-large {
-        font-size: 24px;
-        color: #fff;
-        margin-left: 4px;
-    }
-    
-    .font-sizer {
-        float: left;
-        margin-right: 56px;
-    }
-    
-    .schedule-wrp {
-        float: left;
-    }
-    
-    .schedule {
-        float: left;
-    }
-    
-    .schedule span {
-        display: block;
-        color: #94a651;
-        font-size: 14px;
-        line-height: 14px;
-        margin-bottom: 10px;
-    }
-    
-    .schedule span.Appointment {
-        color: #fff;
-        font-size: 30px;
-        text-transform: uppercase;
-        word-spacing: 1px;
-    }
-    
-    .nav-bg {
-        background: #2d4b4f;
-        padding-top: 20px;
-        padding-bottom: 10px;
-    }
-    
-    .nav-bg nav.navbar.navbar-expand-lg {
-        padding: 0;
-        margin: 0;
-    }
-    
-    .custom-nav a.nav-link {
-        color: #fff;
-        text-transform: uppercase;
-        font-size: 14px;
-        margin-left: 40px;
-    }
-    
-    .review-btn button.btn {
-        font-size: 20px;
-        color: #fff;
-        font-weight: 600;
-        background: #3b96cf;
-        border-radius: 40px;
-        padding: 4px 10px;
-        border-top: 1px solid #97c7e6;
-        border-bottom: 1px solid #2d82b7;
-    }
-    
-    .navbar-toggler {
-        background-color: red !important;
-        margin-left: 40%;
-    }
+        
+        .font-border {
+            border: 1px solid #728272;
+            padding: 8px 15px;
+            border-radius: 50%;
+            max-width: 45px;
+            max-height: 45px;
+            float: left;
+            margin-right: 6px;
+        }
+        
+        .header-top i.fas.fa-mobile-alt {
+            font-size: 20px;
+            color: #799474;
+        }
+        
+        .phone-call {
+            float: left;
+        }
+        
+        .clear {
+            clear: both;
+        }
+        
+        .phone-call span {
+            display: block;
+            font-size: 16px;
+            color: #94a651;
+            text-transform: capitalize;
+            line-height: 16px;
+            margin-bottom: 9px;
+        }
+        
+        .phone-call span.ph-num {
+            color: #fff;
+            font-size: 30px;
+        }
+        
+        .mg-left {
+            padding-left: 0;
+        }
+        
+        .mg-right {
+            padding-right: 0;
+        }
+        
+        .font-sizer span.font-size-small {
+            font-size: 16px;
+            color: #fff;
+            margin-left: 4px;
+        }
+        
+        .font-sizer span.font-size-medium {
+            font-size: 20px;
+            color: #fff;
+            margin-left: 4px;
+        }
+        
+        .font-sizer span.font-size-large {
+            font-size: 24px;
+            color: #fff;
+            margin-left: 4px;
+        }
+        
+        .font-sizer {
+            float: left;
+            margin-right: 56px;
+        }
+        
+        .schedule-wrp {
+            float: left;
+        }
+        
+        .schedule {
+            float: left;
+        }
+        
+        .schedule span {
+            display: block;
+            color: #94a651;
+            font-size: 14px;
+            line-height: 14px;
+            margin-bottom: 10px;
+        }
+        
+        .schedule span.Appointment {
+            color: #fff;
+            font-size: 30px;
+            text-transform: uppercase;
+            word-spacing: 1px;
+        }
+        
+        .nav-bg {
+            background: #2d4b4f;
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+        
+        .nav-bg nav.navbar.navbar-expand-lg {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .custom-nav a.nav-link {
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 14px;
+            margin-left: 40px;
+        }
+        
+        .review-btn button.btn {
+            font-size: 20px;
+            color: #fff;
+            font-weight: 600;
+            background: #3b96cf;
+            border-radius: 40px;
+            padding: 4px 10px;
+            border-top: 1px solid #97c7e6;
+            border-bottom: 1px solid #2d82b7;
+        }
+        
+        .navbar-toggler {
+            background-color: red !important;
+            margin-left: 40%;
+        }
+        
+        .left-content {
+            padding: 60px 10px 55px;
+            background: #569c78;
+            text-align: center;
+            /* width: 254px; */
+        }
+        
+        .header-banner .left-content ul {
+            list-style: none;
+        }
+        
+        h3 {
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        
+        .left-content li {
+            margin-bottom: 5px;
+            display: block;
+        }
+        
+        .left-content li a {
+            background: #fff;
+            /* padding: 5px 52px 5px; */
+            padding: 12px 15px 9px;
+            /* width: 189px; */
+            display: block;
+            color: #5a8;
+            text-decoration: none;
+        }
+        
+        .left-content a.more-link {
+            color: #fff;
+            text-decoration: none;
+            /* margin-top: 38px; */
+        }
+        
+        .left-content p {
+            margin-top: 40px;
+            font-family: 'Raleway 700', sans-serif;
+            text-transform: uppercase;
+        }
+        
+        .left-content i.fas.fa-angle-right {
+            font-size: 28px;
+            vertical-align: center;
+            vertical-align: middle;
+            margin-left: 10px;
+        }
+        /* .left-content i.fas.fa-angle-right:hover {
+        margin-left: 5px;
+    } */
+        
+        .left-content .more-link:hover i {
+            transform: translateX(10px);
+            transition: all .5s ease;
+        }
+        
+        .left-content li a:hover {
+            /* background: yellow; */
+            background: #e5ee53;
+            font-family: 'Raleway 700', sans-serif;
+        }
+        
+        .right-content {
+            margin-top: 146px;
+            margin-right: 15px;
+            text-align: right;
+        }
+        
+        .right-content h6 {
+            color: #a2c7be;
+            text-transform: uppercase;
+            font-family: 'Raleway 900', sans-serif;
+            font-size: 14px;
+            margin-bottom: 17px;
+            line-height: 12px;
+        }
+        
+        .right-content span {
+            font-size: 36px;
+            color: #3b5c60;
+            font-weight: 200;
+            letter-spacing: 0.4px;
+            line-height: 1.4;
+            display: block;
+        }
+        
+        button.rgt-btn {
+            border: none;
+            border-radius: 22px;
+            /* border-radius: 30px; */
+            background: #e5ee53;
+            color: #3b5c60;
+            padding: 15px 30px 14px;
+            line-height: 1;
+            letter-spacing: .6px;
+            margin-top: 15px;
+        }
+        
+        button.rgt-btn:hover {
+            background: #34815f;
+            color: #fff;
+        }
+        
+        .header-banner {
+            background-image: url(https://www.maneladental.com/wp-content/uploads/tucson-dentistry-patient-banner-1900x520.jpg);
+            max-width: 1920px;
+            height: auto;
+            /* display: inline-block; */
+            /* vertical-align: middle; */
+            margin-bottom: 90px;
+        }
